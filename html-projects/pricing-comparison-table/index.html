@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Comparison Table</title>
+</head>
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .nav-logo {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .nav-menu {
+        display: flex;
+        gap: 15px;
+        list-style: none;
+    }
+    a {
+        text-decoration: none;
+    }
+    table {
+        font-family: 'Courier New', Courier, monospace;
+        border-collapse: collapse;
+        width: 50%;
+    }
+    td, th {
+        border: 1px solid rgb(74, 72, 72);
+        text-align: center;
+        padding: 8px;
+    }
+    caption {
+        text-align: left;
+        font-weight: bold;
+        font-size: 20px;
+        padding: 8px;
+    }
+</style>
+<body>
+    <header>
+        <nav>
+            <div class="nav-logo">Acme Plans</div>
+            <ul class="nav-menu">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <table>
+            <caption>Plan Comparison</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Plan</th>
+                    <th scope="col">Storage</th>
+                    <th scope="col">Projects</th>
+                    <th scope="col">Support</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Free</th>
+                    <td>5 GB</td>
+                    <td>3</td>
+                    <td>Email</td>
+                </tr>
+                <tr>
+                    <th scope="row">Pro</th>
+                    <td>100 GB</td>
+                    <td>25</td>
+                    <td>Priority Email</td>
+                </tr>
+                <tr>
+                    <th scope="row">Business</th>
+                    <td>1 TB</td>
+                    <td>Unlimited</td>
+                    <td>24/7 Phone</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4" style="text-align: center; background-color: rgb(235, 228, 228);">All plans include SSL and daily backups</td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+    <footer>
+        <p>&copy; 2026. All rights reserve. </p>
+    </footer>
+</body>
+</html>
