@@ -4,7 +4,7 @@ https://roadmap.sh/projects/pricing-comparison-table
 
 Overview:
 
-In this project, I created s single HTML page that compares three subscription plan side by side using HTML table. 
+In this project, I created a single HTML page that compares three subscription plan side by side using HTML table. 
 
 Key requirements implemented in this project:
 
