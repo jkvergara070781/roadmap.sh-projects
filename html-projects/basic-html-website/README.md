@@ -6,7 +6,7 @@ Overview:
 
 In this project, I created a simple HTML-only website with multiple pages. 
 
-This project includes:
+Key requirements implemented in this project:
 
 - Semantically correct HTML structure.
 - Have multiple pages with a navigation bar.
