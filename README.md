@@ -10,4 +10,7 @@ This repository contains projects ideas from [Roadmap.sh](https://roadmap.sh/pro
 - [Pricing Comparison Table](https://github.com/jkvergara070781/roadmap.sh-projects/tree/main/html-projects/pricing-comparison-table) - https://roadmap.sh/projects/pricing-comparison-table
 - [Blog Post Page](https://github.com/jkvergara070781/roadmap.sh-projects/tree/main/html-projects/blog-post-page) - https://roadmap.sh/projects/blog-post-page
 - [Contact Form](https://github.com/jkvergara070781/roadmap.sh-projects/tree/main/html-projects/contact-form) - https://roadmap.sh/projects/contact-form
-- [Photo Showcase]() - https://roadmap.sh/projects/photo-showcase
+- [Photo Showcase](https://github.com/jkvergara070781/roadmap.sh-projects/tree/main/html-projects/Photo%20Showcase) - https://roadmap.sh/projects/photo-showcase
+
+### CSS
+- [Personal Portfolio]() - https://roadmap.sh/projects/portfolio-website

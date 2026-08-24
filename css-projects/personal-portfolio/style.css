@@ -1,0 +1,223 @@
+:root {
+    --bg-color: #ffffff;
+    --primary-color: #000000;
+    --nav-links-color: #474646;
+    --text-color: #626060;
+    --border-color: #000000;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+.site-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: clamp(1rem, 0.857rem + 0.71vw, 1.5rem);
+}
+
+.site-header a {
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+}
+
+.brand-text {
+  color: var(--primary-color);
+  font-weight: 500;
+  font-size: clamp(1.2rem, 0.971rem + 1.14vw, 2rem);
+}
+
+.navbar {
+  width: 100%;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0;
+}
+
+.nav-links a {
+  color: var(--nav-links-color);
+  letter-spacing: clamp(0.01rem, -0.01rem + 0.1vw, 0.08rem);
+  font-size: clamp(0.8rem, 0.6rem + 1vw, 1.5rem);
+}
+.nav-links li {
+  list-style: none;
+}
+
+main {
+  font-family: "Syne", sans-serif;
+  letter-spacing: clamp(0.01rem, -0.01rem + 0.1vw, 0.08rem);
+  
+}
+
+main p, a, li {
+    color: var(--text-color);
+}
+
+main h1, h2, h3 {
+    color: var(--primary-color);
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: clamp(2rem, 1.143rem + 4.29vw, 5rem);
+}
+
+.main-section h1 {
+  font-size: clamp(1.2rem, 0.971rem + 1.14vw, 2rem);
+}
+
+.main-section p {
+  font-size: clamp(0.7rem, 0.614rem + 0.43vw, 1rem);
+}
+
+.detail-section {
+  display: flex;
+  margin: 0 5vw 0 5vw;
+  margin-top: clamp(1rem, 0.571rem + 2.14vw, 2.5rem);
+}
+
+.detail-section h2 {
+  font-size: clamp(1rem, 0.857rem + 0.71vw, 1.5rem);
+}
+
+.detail-section h3 {
+  font-size: clamp(0.8rem, 0.694rem + 0.53vw, 1.17rem);
+}
+
+.detail-section p,
+a,
+li {
+  font-size: clamp(0.7rem, 0.614rem + 0.43vw, 1rem);
+}
+
+.projects {
+  width: 20vw;
+  padding: clamp(0.8rem, 0.457rem + 1.71vw, 2rem);
+}
+
+.work-experience {
+  width: 35vw;
+  padding: clamp(0.8rem, 0.457rem + 1.71vw, 2rem);
+}
+
+.education {
+  width: 35vw;
+  padding: clamp(0.8rem, 0.457rem + 1.71vw, 2rem);
+}
+
+.course {
+  padding-left: clamp(0.7rem, 0.614rem + 0.43vw, 1rem);
+}
+
+.review-section {
+  margin: 0 5vw 0 5vw;
+  padding: clamp(0.8rem, 0.457rem + 1.71vw, 2rem);
+}
+
+.review-section h2 {
+  font-size: clamp(1rem, 0.857rem + 0.71vw, 1.5rem);
+}
+
+.review p {
+  font-size: clamp(0.7rem, 0.614rem + 0.43vw, 1rem);
+}
+
+.reviews {
+  display: flex;
+  margin-top: clamp(0.8rem, 1.67vw, 1.5rem);
+  justify-content: space-around;
+}
+
+.review {
+  width: 20vw;
+  border: 1px solid var(--border-color);
+  border-radius: clamp(1rem, -0.143rem + 2.38vw, 2rem);
+}
+
+.review p {
+  padding-left: clamp(0.8rem, 1.67vw, 1.5rem);
+  padding-right: clamp(0.5rem, -0.071rem + 1.19vw, 1rem);
+}
+
+footer {
+  font-family: "Syne", sans-serif;
+  letter-spacing: clamp(0.01rem, -0.01rem + 0.1vw, 0.08rem);
+  font-size: clamp(0.7rem, 0.614rem + 0.43vw, 1rem);
+  text-align: center;
+  margin-top: clamp(2rem, 1.857rem + 0.71vw, 2.5rem);
+  margin-bottom: clamp(2rem, 1.857rem + 0.71vw, 2.5rem);
+  color: var(--text-color);
+}
+
+@media screen and (min-width: 700px) {
+  .site-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: clamp(0.7rem, 0.614rem + 0.43vw, 1rem);
+  }
+  .navbar {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .detail-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+  }
+
+  .work-experience {
+    width: 80vw;
+  }
+
+  .work-experience h2 {
+    text-align: center;
+  }
+
+  .education {
+    width: 80vw;
+  }
+
+  .education h2 {
+    text-align: center;
+  }
+
+  .reviews {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: clamp(0.8rem, -1.333rem + 10.67vw, 1.5rem);
+  }
+
+  .review {
+    width: 60vw;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+    --bg-color: #151515;
+    --primary-color: #f2f2f2;
+    --nav-links-color: #f1f1f1;
+    --text-color: #f5f5f5;
+    --border-color: #f2f2f2;
+}
+}
