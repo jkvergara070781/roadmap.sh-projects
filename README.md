@@ -14,4 +14,5 @@ This repository contains projects ideas from [Roadmap.sh](https://roadmap.sh/pro
 
 ### CSS
 - [Personal Portfolio](https://github.com/jkvergara070781/roadmap.sh-projects/tree/main/css-projects/personal-portfolio) - https://roadmap.sh/projects/portfolio-website
-- [Changelog Component]() - https://roadmap.sh/projects/changelog-component
+- [Changelog Component](https://github.com/jkvergara070781/roadmap.sh-projects/tree/main/css-projects/changelog-components) - https://roadmap.sh/projects/changelog-component
+- [Testimonial Cards]() - https://roadmap.sh/projects/testimonial-cards
