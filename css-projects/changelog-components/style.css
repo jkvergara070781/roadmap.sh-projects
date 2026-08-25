@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Arial Narrow", sans-serif;
+}
+
+.changelog-container {
+  border: 2px solid black;
+  width: clamp(16rem, 6.429rem + 47.86vw, 49.5rem);
+  border-radius: clamp(1.5rem, 1.071rem + 2.14vw, 3rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.changelog-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h1 {
+    font-size: clamp(1rem, 0.714rem + 1.43vw, 2rem);
+  }
+
+  p {
+    margin-top: 0;
+    font-size: clamp(0.5rem, 0.357rem + 0.71vw, 1rem);
+  }
+}
+
+.timeline-container {
+  display: flex;
+
+  .date {
+    font-size: clamp(0.5rem, 0.357rem + 0.71vw, 1rem);
+    white-space: nowrap;
+    overflow: visible;
+    text-align: right;
+    direction: rtl;
+    width: clamp(1rem, -1.464rem + 12.32vw, 9.625rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .line-circle-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: clamp(1.625rem, 0.446rem + 5.89vw, 5.75rem);
+
+    .line {
+      width: clamp(0.125rem, 0.089rem + 0.18vw, 0.25rem);
+      height: clamp(1.5rem, 1.071rem + 2.14vw, 3rem);
+      background-color: black;
+    }
+
+    .circle {
+      width: clamp(0.5rem, 0.357rem + 0.71vw, 1rem);
+      height: clamp(0.5rem, 0.357rem + 0.71vw, 1rem);
+      background-color: black;
+      border-radius: 100%;
+    }
+  }
+
+  .activity {
+    font-size: clamp(0.5rem, 0.357rem + 0.71vw, 1rem);
+    width: clamp(6rem, 3.143rem + 14.29vw, 16rem);
+    white-space: nowrap;
+    overflow: visible;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+}
+
+button {
+    font-family: "Arial Narrow", sans-serif;
+    font-size: clamp(0.5rem, 0.357rem + 0.71vw, 1rem);
+    background-color: rgb(36, 35, 35);
+    color: rgb(187, 189, 190);
+    padding-top: clamp(0.5rem, 0.357rem + 0.71vw, 1rem);
+    padding-bottom: clamp(0.5rem, 0.357rem + 0.71vw, 1rem);
+    padding-left: clamp(1.5rem, 1.071rem + 2.14vw, 3rem);
+    padding-right: clamp(1.5rem, 1.071rem + 2.14vw, 3rem);
+    border-radius: clamp(0.5rem, 0.357rem + 0.71vw, 1rem);
+    margin-top: clamp(1rem, 0.571rem + 2.14vw, 2.5rem);
+    margin-bottom: clamp(1rem, 0.571rem + 2.14vw, 2.5rem);
+}

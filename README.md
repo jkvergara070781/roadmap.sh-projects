@@ -13,4 +13,5 @@ This repository contains projects ideas from [Roadmap.sh](https://roadmap.sh/pro
 - [Photo Showcase](https://github.com/jkvergara070781/roadmap.sh-projects/tree/main/html-projects/Photo%20Showcase) - https://roadmap.sh/projects/photo-showcase
 
 ### CSS
-- [Personal Portfolio]() - https://roadmap.sh/projects/portfolio-website
+- [Personal Portfolio](https://github.com/jkvergara070781/roadmap.sh-projects/tree/main/css-projects/personal-portfolio) - https://roadmap.sh/projects/portfolio-website
+- [Changelog Component]() - https://roadmap.sh/projects/changelog-component
