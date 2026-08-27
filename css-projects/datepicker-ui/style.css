@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, sans-serif;
+}
+
+.datepicker-container {
+    width: 21rem;
+}
+
+.date-input-container {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.date-input-container input {
+    font-size: 1rem;
+    font-family: Verdana, sans-serif;
+    text-align: center;
+}
+
+.date-input-container input:nth-child(-n + 2) {
+    width: 2rem;
+}
+
+.date-input-container input:last-child {
+    width: 3rem;
+}
+
+.date-input-container button {
+    border: none;
+    background-color: white;
+}
+.date-input-container span {
+    padding: 1rem 1rem 0 1rem;
+}
+
+.date-input-container div {
+    border-left: 1px solid black;
+    padding: 1rem;
+}
+
+.month-display {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.month-scroll {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.days {
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+}
+
+.month-display button {
+    border: none;
+    background-color: white;
+}
+
+.dates {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.dates div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    height: 3rem;
+}
+
+
