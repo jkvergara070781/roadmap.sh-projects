@@ -19,4 +19,5 @@ This repository contains projects ideas from [Roadmap.sh](https://roadmap.sh/pro
 - [Datepicker UI](https://github.com/jkvergara070781/roadmap.sh-projects/tree/main/css-projects/datepicker-ui) - https://roadmap.sh/projects/datepicker-ui
 - [Accessible Form UI](https://github.com/jkvergara070781/roadmap.sh-projects/tree/main/css-projects/accessible-form-ui) - https://roadmap.sh/projects/accessible-form-ui
 - [Image Grid Layout](https://github.com/jkvergara070781/roadmap.sh-projects/tree/main/css-projects/image-grid-layout) - https://roadmap.sh/projects/image-grid
-- [Tooltip UI]() - https://roadmap.sh/projects/tooltip-ui
+- [Tooltip UI](https://github.com/jkvergara070781/roadmap.sh-projects/tree/main/css-projects/tooltip-ui) - https://roadmap.sh/projects/tooltip-ui
+- [Pricing Cards]() - https://roadmap.sh/projects/pricing-cards
