@@ -20,4 +20,5 @@ This repository contains projects ideas from [Roadmap.sh](https://roadmap.sh/pro
 - [Accessible Form UI](https://github.com/jkvergara070781/roadmap.sh-projects/tree/main/css-projects/accessible-form-ui) - https://roadmap.sh/projects/accessible-form-ui
 - [Image Grid Layout](https://github.com/jkvergara070781/roadmap.sh-projects/tree/main/css-projects/image-grid-layout) - https://roadmap.sh/projects/image-grid
 - [Tooltip UI](https://github.com/jkvergara070781/roadmap.sh-projects/tree/main/css-projects/tooltip-ui) - https://roadmap.sh/projects/tooltip-ui
-- [Pricing Cards]() - https://roadmap.sh/projects/pricing-cards
+- [Pricing Cards](https://github.com/jkvergara070781/roadmap.sh-projects/tree/main/css-projects/pricing-cards) - https://roadmap.sh/projects/pricing-cards
+- [Theme Switcher with CSS Variables]() - https://roadmap.sh/projects/theme-switcher

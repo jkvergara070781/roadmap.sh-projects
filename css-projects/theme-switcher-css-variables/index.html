@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Theme Switcher</title>
+  </head>
+  <body>
+    <div class="card-container">
+      <div class="radio-btn-container">
+        <div class="light radio-btn">
+          <input type="radio" id="light" name="theme" value="light" checked/>
+          <label for="light">Light</label>
+        </div>
+        <div class="dark radio-btn">
+          <input type="radio" id="dark" name="theme" value="dark" />
+          <label for="dark">Dark</label>
+        </div>
+        <div class="custom radio-btn">
+          <input type="radio" id="custom" name="theme" value="custom" />
+          <label for="custom">Custom</label>
+        </div>
+      </div>
+      <div class="text-container">
+        <h2>Theme Switcher with CSS Variables</h2>
+        <p>This is a simple card that changes theme with CSS variables.</p>
+      </div>
+      <div class="btn-container">
+        <button class="btn">Primary Button</button>
+      </div>
+    </div>
+  </body>
+</html>
