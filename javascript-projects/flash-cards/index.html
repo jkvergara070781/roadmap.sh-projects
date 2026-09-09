@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Flash Cards</title>
+  </head>
+  <body>
+    <div class="flashcard-container">
+      <!-- Progress Header -->
+      <div class="flashcard-header">
+        <span class="title">Flash Cards</span>
+        <div class="progress-wrapper">
+          <div class="progress-bar-bg">
+            <div class="progress-bar-fill" id="progressFill"></div>
+          </div>
+          <span class="progress-text" id="progressPercent">25%</span>
+        </div>
+        <span class="counter" id="cardCounter">5 of 20</span>
+      </div>
+      <!-- Flid Container -->
+      <div class="flip-scene">
+        <div class="card-inner" id="cardInner">
+          <!-- Font Side (Question) -->
+           <div class="card-face card-front">
+              <div class="card-text" id="questionText">What is the difference between var, let, and const</div>
+           </div>
+           <div class="card-face card-back">
+            <div class="card-text" id="answerText">In JavaScript</div>
+           </div>
+        </div>
+      </div>
+      <!-- Navigation Controls -->
+       <div class="card-controls">
+        <button class="control-btn" id="prevBtn">&lt; Previous</button>
+        <button class="control-btn toggle-btn" id="toggleBtn">Show Answer</button>
+        <button class="control-btn" id="nextBtn">Next &gt;</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -24,4 +24,5 @@ This repository contains projects ideas from [Roadmap.sh](https://roadmap.sh/pro
 - [Theme Switcher with CSS Variables](https://github.com/jkvergara070781/roadmap.sh-projects/tree/main/css-projects/theme-switcher-css-variables) - https://roadmap.sh/projects/theme-switcher
 
 ### JavaScript
-- [Tabs]() - https://roadmap.sh/projects/simple-tabs
+- [Tabs](https://github.com/jkvergara070781/roadmap.sh-projects/tree/main/javascript-projects/tabs) - https://roadmap.sh/projects/simple-tabs
+- [Flash Cards]() - https://roadmap.sh/projects/flash-cards
