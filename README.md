@@ -26,4 +26,5 @@ This repository contains projects ideas from [Roadmap.sh](https://roadmap.sh/pro
 ### JavaScript
 - [Tabs](https://github.com/jkvergara070781/roadmap.sh-projects/tree/main/javascript-projects/tabs) - https://roadmap.sh/projects/simple-tabs
 - [Flash Cards](https://github.com/jkvergara070781/roadmap.sh-projects/tree/main/javascript-projects/flash-cards) - https://roadmap.sh/projects/flash-cards
-- [Task Tracker]() - https://roadmap.sh/projects/task-tracker-js
+- [Task Tracker](https://github.com/jkvergara070781/roadmap.sh-projects/tree/main/javascript-projects/task-tracker) - https://roadmap.sh/projects/task-tracker-js
+- [Temperature Converter]() - https://roadmap.sh/projects/temperature-converterß

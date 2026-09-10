@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Temperature Converter</title>
+  </head>
+
+  <body>
+    <!-- <div class="container">
+      <header>
+        <h2>Temperature Converter</h2>
+        <p>Enter the temperature value, select the units and submit</p>
+      </header>
+      <form class="tempForm" id="temp-form">
+        <input type="number" id="temp-input" required />
+        <div class="selectContainer">
+          <label for="from-unit">From</label>
+          <select name="from" id="from-unit" required>
+            <option value="" disabled selected>-- Unit --</option>
+            <option value="fahrenheit">Fahrenheit</option>
+            <option value="celsius">Celseus</option>
+            <option value="kelvin">Kelvin</option>
+          </select>
+        </div>
+        <div class="selectContainer">
+          <label for="to-unit">To</label>
+          <select name="to" id="to-unit" required>
+            <option value="" disabled selected>-- Unit --</option>
+            <option value="fahrenheit">Fahrenheit</option>
+            <option value="celsius">Celseus</option>
+            <option value="kelvin">Kelvin</option>
+          </select>
+        </div>
+        <button type="submit" id="converter-btn" disabled>Convert</button>
+      </form>
+
+      <div class="result-container" id="resultContainer">
+        <p class="result-text" id="resultText"></p>
+      </div>
+    </div> -->
+    <div class="converter-card">
+      <h2>Temperature Converter</h2>
+
+      <div class="form-group">
+        <label for="tempInput">Temperature Value</label>
+        <input
+          type="number"
+          id="tempInput"
+          placeholder="Enter value..."
+          step="any"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="fromUnit">Convert From</label>
+        <select id="fromUnit">
+          <option value="" disabled selected>Select starting unit</option>
+          <option value="C">Celsius (°C)</option>
+          <option value="F">Fahrenheit (°F)</option>
+          <option value="K">Kelvin (K)</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="toUnit">Convert To</label>
+        <select id="toUnit">
+          <option value="" disabled selected>Select target unit</option>
+          <option value="C">Celsius (°C)</option>
+          <option value="F">Fahrenheit (°F)</option>
+          <option value="K">Kelvin (K)</option>
+        </select>
+      </div>
+
+      <button id="convertBtn" disabled>Convert</button>
+
+      <div class="result-container" id="resultContainer">
+        <p class="result-text" id="resultText"></p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
